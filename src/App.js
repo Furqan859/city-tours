@@ -1,10 +1,12 @@
 
 import './App.scss';
 import Navbar from './components/navbar/Navbar';
+import Index from './TourList/Index'
 function App() {
-  return (<div>
+  return (<main>
      <Navbar/>
-  </div>
+     <Index/>
+  </main>
    
     
   );
