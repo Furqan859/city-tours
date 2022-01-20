@@ -1,11 +1,16 @@
-
-import './App.scss';
+import React from 'react';
+import './App.css';
 import Navbar from './components/navbar/Navbar';
-import Index from './TourList/Index'
+import Tour from './components/Main.js/Tour';
+
+
+
+
 function App() {
   return (<main>
      <Navbar/>
-     <Index/>
+     <Tour/>
+     
   </main>
    
     
